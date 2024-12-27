@@ -1,0 +1,84 @@
+/* Apply a full page background image */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-photo/composition-black-friday-shopping-cart-with-copy-space_23-2148667046.jpg?t=st=1735305047~exp=1735308647~hmac=0d7ceb159a95e21a3295857af5dbb1ac528a8cae857dec7ca2ed2a556333cb42&w=1380');  /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  /* Keeps the background fixed during scrolling */
+  font-family: Arial, sans-serif;
+}
+
+/* Centering the login box */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);  /* Semi-transparent black background */
+}
+
+/* Styling the login box */
+.login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+/* Input field styles */
+.textbox {
+  margin-bottom: 20px;
+}
+
+.textbox input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.textbox button {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.textbox button:hover {
+  background-color: #e65100;
+}
+
+/* Button styles for Login and Signup */
+.btn {
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
